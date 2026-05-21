@@ -5,7 +5,7 @@ Various project using Python and/or SQL for Product Analysis and Product Managem
 ## StreamFlix - EDA
 Description: Exploratory Data Analysis using Polars and Plotly to uncover customer usage and the churn rate of different customer types
 
-## MusicNow Analytics
+## MusicNow Analytics (Python)
 Description: The goal of this project is to process raw event logs and transform them into actionable product insights using modern Python data manipulation and visualization libraries.
 Key Implementations:
 - Synthetic Data Generation: Engineered a custom dataset of user events (including song plays, logins, ad clicks, and premium upgrades) to simulate real-world user behavior.
