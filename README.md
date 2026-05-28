@@ -1,6 +1,6 @@
-# Python/ SQL For Product
+# Python For Product
 
-Various projects using Python and/or SQL for Product Analysis and Product Management, ranging from Exploratory Data Analysis to Basic Machine Learning with a product focus
+Various projects using Python for Product Analysis and Product Management, ranging from Exploratory Data Analysis to Basic Machine Learning, with a product focus
 
 ## StreamFlix - EDA
 Description: Exploratory Data Analysis using Polars and Plotly to uncover customer usage and the churn rate of different customer types
@@ -16,6 +16,13 @@ Key Implementations:
 ## Feature Engagement Scorer (Python)
 Description: A streamlit web app that calculates user engagement and gives recommended actions
 Key Implementations:
-- User input: The Product Manager is ablet to input the number of logins and new features per week
+- User input: The Product Manager is able to input the number of logins and new features per week
 - Scorer: The app calculates the engagement rate for a user
-- Action: The app suggests a call to action based on the the user type ('Active','At-Risk','Power User')
+- Action: The app suggests a call to action based on the user type ('Active', 'At-Risk',' Power User')
+
+## Product Analyst Metric Converter (Python)
+Description: A Streamlit web app that converts standard product management metrics and estimates agile development time.
+Key Implementations:
+- User input: The Product Analyst selects a conversion category (Revenue, Agile Estimation, or User Engagement) and inputs the base numbers.
+- Converter: The app calculates the mathematical translations for MRR/ARR, Story Points to days (factoring in developer seniority), and DAU/MAU proxies.
+- Output: The app displays the final estimated metric in a clear, formatted result block for quick reference in product meetings.
