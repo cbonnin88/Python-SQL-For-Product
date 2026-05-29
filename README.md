@@ -7,6 +7,7 @@ Description: Exploratory Data Analysis using Polars and Plotly to uncover custom
 
 ## MusicNow Analytics
 Description: The goal of this project is to process raw event logs and transform them into actionable product insights using modern Python data manipulation and visualization libraries.
+
 Key Implementations:
 - Synthetic Data Generation: Engineered a custom dataset of user events (including song plays, logins, ad clicks, and premium upgrades) to simulate real-world user behavior.
 - Data Cleaning Pipeline: Utilized Polars to cast date strings into proper datetime objects, handle missing values, and filter relevant event streams for accurate aggregation.
@@ -15,6 +16,7 @@ Key Implementations:
 
 ## Feature Engagement Scorer
 Description: A streamlit web app that calculates user engagement and gives recommended actions
+
 Key Implementations:
 - User input: The Product Manager can input the number of logins and new features per week
 - Scorer: The app calculates the engagement rate for a user
@@ -22,6 +24,7 @@ Key Implementations:
 
 ## Product Analyst Metric Converter
 Description: A Streamlit web app that converts standard product management metrics and estimates agile development time.
+
 Key Implementations:
 - User input: The Product Analyst selects a conversion category (Revenue, Agile Estimation, or User Engagement) and inputs the base numbers.
 - Converter: The app calculates the mathematical translations for MRR/ARR, Story Points to days (factoring in developer seniority), and DAU/MAU proxies.
@@ -29,6 +32,7 @@ Key Implementations:
 
 ## User Story Generator
 Description: A Streamlit web app that facilitates the seamless creation and documentation of structured, data-focused user stories for Data Product Managers.
+
 Key Implementations:
 - User input: The Product Analyst inputs standard agile story components (Role, Feature, Benefit) alongside specific data engineering parameters, such as SLA requirements, data quality metrics, and acceptance criteria.
 - Document Compiler: The app processes the text inputs sequentially without relying on complex custom functions, dynamically structuring the data into a clean, well-formatted PDF document using the FPDF library.
